@@ -4,7 +4,7 @@ import { sanityFetch } from "../live";
 export async function getStudentByClerkId(clerkId: string) {
   //query should be unique
   const getStudentByClerkIdQuery = defineQuery(
-    `*[_type == studentType && clerkId == $clerkId][0]`
+    `*[_type == "student" && clerkId == $clerkId][0]`
   );
 
   const student = await sanityFetch({
