@@ -1,7 +1,8 @@
+import React from "react";
 import { Loader } from "@/components/ui/loader";
 import { Skeleton } from "@/components/ui/skeleton";
 
-function Loading() {
+const Loading: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-16">
       {/* Hero Section Skeleton */}
@@ -55,6 +56,6 @@ function Loading() {
       </div>
     </div>
   );
-}
+};
 
 export default Loading;

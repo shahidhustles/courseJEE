@@ -1,6 +1,7 @@
+import React from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 
-function Loading() {
+const Loading: React.FC = () => {
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <div className="flex flex-col gap-y-8">
@@ -29,6 +30,6 @@ function Loading() {
       </div>
     </div>
   );
-}
+};
 
 export default Loading;
