@@ -34,7 +34,7 @@ const Header = () => {
             <nav>
               <SignedIn>
                 <Link
-                  href="/mycourses"
+                  href="/my-courses"
                   className="flex space-x-2 items-center text-sm font-medium
                    text-muted-foreground hover:text-foreground transition-colors
                    md:border md:border-border md:rounded-md md:px-4 md:py-2"
