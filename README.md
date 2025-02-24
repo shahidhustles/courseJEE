@@ -11,7 +11,7 @@ A fully functional **Learning Management System (LMS)** powered by **Sanity** an
 - **Responsive UI** – Optimized for both mobile and desktop users  
 
 ## 🛠 Tech Stack  
-- **Frontend:** Presentation framework  
+- **Frontend:** React JS / Sanity Presentation   
 - **Backend:** Sanity CMS  
 - **Admin Panel:** Sanity Studio  
 - **Payments:** Stripe  
