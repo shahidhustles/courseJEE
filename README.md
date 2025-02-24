@@ -16,5 +16,5 @@ A fully functional **Learning Management System (LMS)** powered by **Sanity** an
 - **Admin Panel:** Sanity Studio  
 - **Payments:** Stripe  
 
-##Live Demo
+## 🌍 Live Demo
 👉 View Demo (Add your live link here!)
